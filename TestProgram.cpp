@@ -1,17 +1,11 @@
-#include<iostream>
-#include<cmath>
-using namespace std;
-int main(){
-	long long int t;cin>>t;
-	while(t--){
-		long long int i=1,a,fd;
-		cin>>a;fd=0;
-		while(a/pow(5,i)>0)
-		{			
-			fd+=(a/pow(5,i));
-			i++;
-		}
-	cout<<fd<<endl;
-	}
+// max example
+#include <iostream>     // std::cout
+#include <algorithm>    // std::max
+
+int main () {
+  std::cout << "max(1,2)==" << std::max(1,2) << '\n';
+  std::cout << "max(2,1)==" << std::max(2,1) << '\n';
+  std::cout << "max('a','z')==" << std::max('a','z') << '\n';
+  std::cout << "max(3.14,2.73)==" << std::max(3.14,2.73) << '\n';
+  return 0;
 }
- 
