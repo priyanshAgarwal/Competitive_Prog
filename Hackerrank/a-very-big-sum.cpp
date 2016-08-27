@@ -11,11 +11,11 @@ int main(){
     long long unsigned sum;
     cin >> n;
     vector<int> arr(n);
-    for(int arr_i = 0;arr_i < n;arr_i++){
+    for(int i = 0;i < n;i++){
        cin >> arr[arr_i];
     }
     
-    for(int arr_i = 0;arr_i < n;arr_i++) sum+=arr[arr_i];
+    for(int i = 0;i < n;i++) sum+=arr[i];
     
     cout<<sum<<endl;
     
